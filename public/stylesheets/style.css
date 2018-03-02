@@ -1,0 +1,320 @@
+/*
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+*/
+#jack-works {
+    position: relative;
+    margin-top: 50px;
+}
+
+#jack-header {
+    position: relative;
+    min-height: 100%
+}
+
+#jack-space {
+    border: none;
+/*    padding-left: 70px;*/
+}
+
+.jack-nav {
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.nav-space {
+    padding-top: 80px;
+    padding-left: 600px;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    float: none;
+    padding-top: 0px;
+    padding-left: 0px;
+    background-image: url('/images/top-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+#skill-img {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    padding-top: 0px;
+    padding-left: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+#about-img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    position: absolute;
+    padding-top: 60px;
+}
+
+.slogan {
+    padding-top: 100px;
+    font-size: 66pt;
+    color: white;
+}
+
+.slogan2 {
+    padding-top: 10px;
+    font-size: 18pt;
+    color: white;
+    font-weight: 100;!important;
+}
+
+.line-01 {
+    position: absolute;
+    width: 18%;
+    top: 20px;
+    background: #F8E71C;
+    height: 10px;
+    border: none;
+}
+
+.download-butt {
+    background-color: white;
+    border: solid 1px #5E17EB;
+    color: #5E17EB;
+    padding: 20px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.download-butt:hover{
+    background-color: #5E17EB;
+    color: white;
+}
+
+.jack-menu {
+    padding-top: 20px;
+}
+
+.title {
+    font-size: 42pt;
+    font-weight: 700;
+    color: black;
+    /*background-color: #F8E71C;*/
+    /* position: absolute;*/
+}
+
+.title-01 {
+    font-size: 42pt;
+    color: white;
+}
+
+.rectangle-01 {
+    border-radius: inherit;
+}
+
+.padding-bottom-80 {
+    padding-bottom: 80px;
+}
+
+.padding-top-20 {
+    padding-top: 20px;
+}
+
+.padding-top-40 {
+    padding-top: 40px;
+}
+
+.padding-top-60 {
+    padding-top: 60px;
+}
+
+.padding-top-80 {
+    padding-top: 80px;
+}
+
+.padding-top-100 {
+    padding-top: 100px;
+}
+
+.padding-top-160 {
+    padding-top: 160px;
+}
+
+.padding-top-180 {
+    padding-top: 180px;
+}
+
+.position {
+    position: absolute;
+}
+
+.box-01 {
+    width: 400px;
+    height: 284px;
+}
+
+.work-img-1 {
+    position: absolute;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.subtitle-about {
+    text-align: center;
+    font-size: x-large;
+    color: #000000;
+}
+
+.text-01 {
+    text-align: center;
+    font-size: medium;
+    color: #515151;
+    line-height: 180%;
+}
+
+.text-02 {
+    font-size: medium;
+    color: #515151;
+    font-weight: 100;
+}
+
+.text-03 {
+    font-size: medium;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+/*.jk-skill {
+    margin: 0 auto;
+    min-width: 520px;
+}*/
+
+.jk-skill-col {
+   /* padding-top: 80px;*/
+    padding-left: 60px;
+   /* padding-bottom: 100px;*/
+    width: 250px;
+    display: inline-block;
+}
+
+.footer-img-holder {
+    float: right;
+    width:auto;
+    height:auto;
+    margin-top: 246px;
+
+}
+
+#footer-img {
+    /*padding-top: 30px;*/
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.work-img-holder{
+    min-height: 250px;
+    min-width: 150px;
+    max-width: 400px;
+    max-height:284px;
+    cursor: pointer;
+}
+
+.works-img {
+    border:0px;
+    display: inline;
+}
+
+#jack-skills {
+     position: static;
+}
+
+#jack-about {
+    position: static;
+}
+
+#jack-footer {
+    background-color: #5E17EB;
+    width: auto;
+    height: 550px;
+    position: static;
+    /*padding-top: 100px;*/
+    background-size: cover;
+    z-index: 0;
+}
+
+.u-arrow {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid #F8E71C;
+    border-right: 3px solid #F8E71C;
+}
+
+.u-arrow-down {
+    transform: rotate(135deg);
+}
+
+.navbar {
+    width:100%;
+    background:none !important;
+
+@media(max-width: 50em) {
+    background: black!important;
+}
+
+.navbar-toggler {
+    cursor:pointer;
+    outline:0;
+}
+
+.nav-link {
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+.nav-item {
+    padding: 0 1rem;
+
+@media(max-width: 34em) {
+    padding: 0;
+}
+
+.nav-link {
+@media(max-width: 34em) {
+    font-weight:normal;
+    color:#fff !important;
+}
+}
+}
+}
+
+#logo {
+    background-image: url('/images/logo@3x.png');
+    width:78px;
+    height: auto;
+}
