@@ -84,3 +84,17 @@ function selectWorkImage(imgTag) {
 //         scrollTop: $('#jk-contact').offset().top
 //     }, 1000);
 // }
+
+/*
+jQuery(document).ready(function($) {
+    $('body').scrollspy({ target: '#header', offset: 400});
+    if ($(".scroll-header")[0]){
+        $(window).bind('scroll', function() {
+            if ($(window).scrollTop() > 50) {
+                $('#header').addClass('navbar-fixed-top');
+            }
+            else {
+                $('#header').removeClass('navbar-fixed-top');
+            }
+        });
+    }*/

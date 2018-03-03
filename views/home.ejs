@@ -2,81 +2,157 @@
 <html>
 <head>
     <title><%= title %></title>
-    <% include heads/jquery.head.ejs %>
-    <!--    <% include heads/semantic.head.ejs %>-->
-    <% include heads/jack.head.ejs %>
-    <% include heads/bootstrap.head.ejs %>
-
+    <% include heads/css.head.ejs %>
 </head>
-<body>
+<body data-spy="scroll">
 
 <!--Background-img-->
 <div class="bg-image" role="banner"></div>
 
 <!--navigation bar-->
-<div id="jack-header">
-    <div class="container">
-        <div class="ui grid"></div>
-        <div class="ten wide column">
-            <!-- <div class="logo"><img src="/images/logo@3x.png" width="78" height="auto"></div>-->
-        </div>
-        <div id="jack-nav">
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-toggleable-md navbar-inverse">
 
-                        <a href="#" class="navbar-brand" id="logo"></a>
-
-                        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+<body data-spy="scroll">
+<header id="header" class="header scroll-header">
+    <a href="#" id="jack-header"></a>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#"><img src="/images/logo@3x.png" class="logo" style="padding-top: 10px"></a>
+                    <!--logo-img-->
+                </div>
+                <div class="container" id="jack-space">
+                    <div class="col-md-8 push-7">
+                        <div class="navbar navbar-toggleable-md navbar-toggler" style="color: white; padding-top: 28px">
                             <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link text-03" id="home-tag"
+                                <li class="nav-item nav-link">
+                                    <a class="nav-item text-03" id="home-tag"
                                        onclick="selectNavButton('home-tag','jack-header')">Home</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-03" id="works-tag"
+                                <li class="nav-item nav-link">
+                                    <a class="nav-item text-03" id="works-tag"
                                        onclick="selectNavButton('works-tag','jack-works')">Works</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-03" id="about-tag"
+                                <li class="nav-item nav-link">
+                                    <a class="nav-item text-03" id="about-tag"
                                        onclick="selectNavButton('about-tag','jack-about')">About</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-03" id="skills-tag"
+                                <li class="nav-item nav-link">
+                                    <a class="nav-item text-03" id="skills-tag"
                                        onclick="selectNavButton('skills-tag','jack-skills')">Skills</a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link text-03" id="contact-tag"
+                                <li class="nav-item nav-link">
+                                    <a class="nav-item text-03" id="contact-tag"
                                        onclick="selectNavButton('contact-tag','jack-footer')">Contact</a>
                                 </li>
                             </ul>
                         </div>
+                    </div>
 
-                    </nav>
                 </div>
             </div>
         </div>
-        <!--<div class="two wide column">
-            <div class="jack-nav">
-                <div class="container" id="jack-space">
-                    <div class="row">
+    </nav>
+</header>
+<div class="slogan" align="center">
+    <div class="container">
+        <div class="slogan"><b>I<span style="color: #F8E71C">'</span>
+                m Jack Huang<span style="color: #F8E71C">.</span></b></div>
+
+        <div><!--<span class="line-01"><hr style="border: none"> </span>-->
+            <div class="slogan2">UI/UX Designer, Website Developer</div>
+        </div>
+    </div>
+    <i class="u-arrow u-arrow-down" style="margin-top: 12rem">
+    </i>
+</div>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<!--<header id="jack-header" class="header scroll-header header-main">
+    <div class="container">
+        <nav id="main-nav" class="main-nav big-main-nav navbar-left" role="navigation">
+            <div class="navbar-header">
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav big-navbar-nav">
+                    <li class="active nav-item sr-only">
+                        <a title="Building Hollywood" href="http://localhost/projects/build/#promo">
+                            Home </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a title="Post A New Job" href="http://localhost/projects/build/jobs-post">
+                            Post A New Job </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a title="Post Looking For A Job" href="http://localhost/projects/build/resume-post">
+                            Post Looking For A Job </a>
+                    </li>
+                    <li class="nav-item big-pull-right ">
+                        <a title="Messages" href="http://localhost/projects/build/contact">
+                            Messages </a>
+                    </li>
+                    <li class="nav-item big-pull-right">
+                        <a title="Sign Out" href="http://localhost/projects/build/signout">
+                            Sign Out </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>-->
+
+
+<!--                    <div class="row">
                         <nav class="navbar navbar-toggleable-md navbar-inverse">
-                            <a class="right item active" id="home-tag" onclick="selectNavButton('home-tag','jack-header')">
-                                Home</a>
-                            <a class="right item" id="works-tag" onclick="selectNavButton('works-tag','jack-works')">
-                                Works</a>
-                            <a class="right item" id="about-tag" onclick="selectNavButton('about-tag','jack-about')">
-                                About</a>
-                            <a class="right item" id="skills-tag" onclick="selectNavButton('skills-tag','jack-skills')">
-                                Skills</a>
-                            <a class="right item" id="contact-tag" onclick="selectNavButton('contact-tag','jack-footer')">
-                                Contact</a>
+
+                            <a href="#" class="navbar-brand" id="logo"></a>
+
+                            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                    aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link text-03" id="home-tag"
+                                           onclick="selectNavButton('home-tag','jack-header')">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-03" id="works-tag"
+                                           onclick="selectNavButton('works-tag','jack-works')">Works</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-03" id="about-tag"
+                                           onclick="selectNavButton('about-tag','jack-about')">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-03" id="skills-tag"
+                                           onclick="selectNavButton('skills-tag','jack-skills')">Skills</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-03" id="contact-tag"
+                                           onclick="selectNavButton('contact-tag','jack-footer')">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+
                         </nav>
                     </div>
                 </div>
@@ -84,51 +160,49 @@
         </div>-->
 
 
-        <!--slogan-->
-        <div class="slogan" align="center">
-            <div class="ui sizer vertical segment">
-                <div class="slogan"><b>I<span style="color: #F8E71C">'</span>
-                        m Jack Huang<span style="color: #F8E71C">.</span></b></div>
-
-                <div><!--<span class="line-01"><hr style="border: none"> </span>-->
-                    <div class="slogan2">UI/UX Designer, Website Developer</div>
-                </div>
+<!--<div class="two wide column">
+    <div class="jack-nav">
+        <div class="container" id="jack-space">
+            <div class="row">
+                <nav class="navbar navbar-toggleable-md navbar-inverse">
+                    <a class="right item active" id="home-tag" onclick="selectNavButton('home-tag','jack-header')">
+                        Home</a>
+                    <a class="right item" id="works-tag" onclick="selectNavButton('works-tag','jack-works')">
+                        Works</a>
+                    <a class="right item" id="about-tag" onclick="selectNavButton('about-tag','jack-about')">
+                        About</a>
+                    <a class="right item" id="skills-tag" onclick="selectNavButton('skills-tag','jack-skills')">
+                        Skills</a>
+                    <a class="right item" id="contact-tag" onclick="selectNavButton('contact-tag','jack-footer')">
+                        Contact</a>
+                </nav>
             </div>
-            <i class="u-arrow u-arrow-down" style="margin-top: 12rem">
-            </i>
         </div>
     </div>
-</div>
+</div>-->
 
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
+
 <!--works-->
 <div id="jack-works">
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <h1 class="title" style="margin-left: 20px">Works</h1>
+            <div class="col-md-8 col-sm-6">
+                <h1 class="title">Works</h1>
             </div>
-            <div class="col-md-8">
-                <div class="jack-menu">
-                    <div class="ui secondary pointing menu" id="jack-space" style="padding-left: 80px">
-                        <a class="right item active" id="website-tag" onclick="selectMenuButton('website-tag')">
-                            Website</a>
-                        <a class="right item" id="app-tag" onclick="selectMenuButton('app-tag')">
-                            App</a>
-                        <a class="right item" id="graphic-tag" onclick="selectMenuButton('graphic-tag')">
-                            Graphic</a>
-                        <a class="right item" id="photography-tag" onclick="selectMenuButton('photography-tag')">
-                            Photography</a>
-                        <a class="right item" id="arts-tag" onclick="selectMenuButton('arts-tag')">
-                            Arts</a>
-                    </div>
+            <div class="col-md-4 col-sm-6">
+                <div id="jack-space" class="jack-menu">
+                    <a class="right item active" id="website-tag" onclick="selectMenuButton('website-tag')">
+                        Website</a>
+                    <a class="right item" id="app-tag" onclick="selectMenuButton('app-tag')">
+                        App</a>
+                    <a class="right item" id="graphic-tag" onclick="selectMenuButton('graphic-tag')">
+                        Graphic</a>
+                    <a class="right item" id="photography-tag" onclick="selectMenuButton('photography-tag')">
+                        Photography</a>
+                    <a class="right item" id="arts-tag" onclick="selectMenuButton('arts-tag')">
+                        Arts</a>
                 </div>
             </div>
-
         </div>
 
         <!--works img-->
@@ -172,7 +246,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
@@ -325,44 +398,50 @@
 <!--footer-->
 <footer id="jack-footer">
     <div class="container">
-        <div class="footer-img-holder">
-            <img src="/images/ruler@3x.png" id="footer-img">
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-8 col-lg-8 col-md-6 col-sm-6 col-xs-6">
-                <br/><br/><br/>
+        <div class="row alert-danger">
+            <div class="col-10">
+               <!--  <div class="footer-img-holder">
+                     <img src="/images/ruler@3x.png" id="footer-img">
+                 </div>-->
                 <h1 class="title-01">Contact</h1>
             </div>
-            <div class="col-lg-8 col-md-6 col-sm-4">
-                <a href="https://www.linkedin.com/in/jack-huang-136a6097/" target="view_window"><i
-                            class="inverted linkedin big link icon"></i></a>
-                <a href="https://www.behance.net/jackhuang" target="view_window"><i
-                            class="inverted behance link big icon" style="margin-left: 18px"></i></a>
-                <a href="https://dribbble.com/Bestcat" target="view_window"><i class="inverted dribble big link icon"
-                                                                               style="margin-left: 18px"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=100009443163683" target="view_window"><i
-                            class="inverted facebook big link icon" style="margin-left: 18px"></i></a>
-            </div>
+
+
             <div class="container">
-                <div class="no-gutters row">
-                    <div class="col-xl-12 col-lg-8 col-md-6 col-sm-6 col-xs-6">
-                        <div class="text-03">
-                            <p>Email: <a href="mailto:laotuhao@gmail.com">
+                <div class="row">
+                    <div class="col-md-8 col-sm-4" style="padding-top: 20px">
+                        <a href="https://www.linkedin.com/in/jack-huang-136a6097/" target="view_window">
+                            <img class="icons" src="/images/linkedin@2x.png"></a>
+                        <a href="https://www.behance.net/jackhuang" target="view_window">
+                            <img class="icons" src="/images/behance@2x.png" style="margin-left: 20px"></a>
+                        <a href="https://dribbble.com/Bestcat" target="view_window">
+                            <img class="icons" src="/images/dribbble@2x.png" style="margin-left: 20px"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100009443163683" target="view_window">
+                            <img class="icons" src="/images/facebook@2x.png" style="margin-left: 20px"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-10">
+                        <div class="text-03" style="padding-top: 40px">
+                            <span>Email: <a href="mailto:laotuhao@gmail.com">
                                     <u class="text-03" style="cursor: pointer">
                                         laotuhao@gmail.com
-                                    </u></a> | Mobile: +1(310)504-7390 | Wechat: tz103004176
-                            </p>
+                                    </u></a></span>
+                            <span style="margin-left: 20px">Mobile: +1(310)504-7390</span>
+                            <span style="margin-left: 20px">Wechat: tz103004176</span>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </div>
+    </div>
 </footer>
 
+<% include heads/js.head.ejs %>
 
+</body>
 </html>
