@@ -340,12 +340,9 @@ html, body {
 
 @media (max-width: 34em) {
     font-weight:normal;
-    font-color:#fff !important;
+    font-color:#fff;
 }
 
-}
-}
-}
 
 .header {
     padding: 10px 0;
