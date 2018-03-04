@@ -48,7 +48,6 @@
                             </ul>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -101,7 +100,7 @@
                 <% if(workStatus === 'app'){ %>
                 <% for (let i = 1; i < 7; i++){ %>
 
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <% let path = '/images/app-img0' + i + '.jpg'; %>
                     <img src="<%= path %>" class="img-fluid">
                 </div>
@@ -112,16 +111,22 @@
                 <% if(workStatus === 'website'){ %>
                 <% for (let i = 1; i < 7; i++){ %>
 
-                <div class="col-md-4">
+                <div class="col-md-6">
                         <% let path = '/images/pic0' + i + '.jpg'; %>
                         <img src="<%= path %>" class="img-fluid">
                 </div>
 
+                <% if(workStatus === 'graphic'){ %>
+                <% for (let i = 1; i < 7; i++){ %>
+
+                <div class="col-md-6">
+                    <% let path = '/images/pic0' + i + '.jpg'; %>
+                    <img src="<%= path %>" class="img-fluid">
+                </div>
                 <% } %>
                 <% } %>
 
             </div>
-
         </div>
 
         <!--works img-->
