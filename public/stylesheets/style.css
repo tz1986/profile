@@ -66,9 +66,12 @@ html, body {
     z-index: 0;*/
     width: 100%;
     height: auto;
-    position: relative;
+    position: absolute;
     background-size: cover;
     background-repeat: no-repeat;
+    z-index: 0;
+    padding-top: 0px;
+    padding-left: 0px;
 }
 
 #about-img {
@@ -224,10 +227,10 @@ html, body {
     font-weight: 100;
 }
 
-/*.jk-skill {
-    margin: 0 auto;
+.jk-skill {
+    margin-bottom: 200px;
     min-width: 520px;
-}*/
+}
 
 .jk-skill-col {
     /* padding-top: 80px;*/
@@ -239,9 +242,9 @@ html, body {
 
 .footer-img-holder {
     float: right;
-    width: auto;
+    width: 16%;
     height: auto;
-    margin-top: 18px;
+    margin-top: 40px;
 }
 
 #footer-img {
