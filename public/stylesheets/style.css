@@ -19,7 +19,7 @@ html, body {
 }
 #jack-works {
     position: relative;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 #jack-header {
@@ -177,6 +177,10 @@ html, body {
     padding-top: 100px;
 }
 
+.padding-top-140 {
+    padding-top:140px;
+}
+
 .padding-top-160 {
     padding-top: 160px;
 }
@@ -222,7 +226,7 @@ html, body {
 }
 
 .text-03 {
-    font-size: medium;
+    font-size: large;
     color: #FFFFFF;
     font-weight: 100;
 }
@@ -260,11 +264,6 @@ html, body {
     max-width: 400px;
     max-height: 284px;
     cursor: pointer;
-}
-
-.works-img {
-    border: 0px;
-    display: inline;
 }
 
 #jack-skills {
@@ -382,7 +381,6 @@ html, body {
 
 
 
-
 .header.navbar-fixed-top .logo a {
     color: #0c303b;
 }
@@ -407,8 +405,7 @@ html, body {
 
 .header .main-nav button {
     background: #e3e3e3;
-    color: #aaa;
-!important;
+    color: #aaa !important;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
@@ -541,8 +538,15 @@ html, body {
 
     }
 
-.navbar-nav1 {
-    font-weight: 100;
-    color: #FFFFFF;
+    .navbar-nav1 {
+        font-weight: 100;
+        color: #FFFFFF;
+    }
 }
 
+.works-img {
+    display: inline-block;
+    border: 0px;
+    max-width: 30%;
+
+}
