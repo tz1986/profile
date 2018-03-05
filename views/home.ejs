@@ -11,7 +11,7 @@
 
 <!--navigation bar-->
 
-<body data-spy="scroll">
+<div data-spy="scroll">
 <header id="header" class="header scroll-header">
     <a href="#" id="jack-header"></a>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top">
@@ -97,6 +97,7 @@
         </div>
         <div class="container">
             <div class="row no-gutters" style="padding-top: 30px">
+
                 <% if(workStatus === 'app'){ %>
                 <% for (let i = 1; i < 7; i++){ %>
 
@@ -112,9 +113,12 @@
                 <% for (let i = 1; i < 7; i++){ %>
 
                 <div class="col-md-6">
-                        <% let path = '/images/pic0' + i + '.jpg'; %>
-                        <img src="<%= path %>" class="img-fluid">
+                    <% let path = '/images/pic0' + i + '.jpg'; %>
+                    <img src="<%= path %>" class="img-fluid">
                 </div>
+
+                <% } %>
+                <% } %>
 
                 <% if(workStatus === 'graphic'){ %>
                 <% for (let i = 1; i < 7; i++){ %>
@@ -123,6 +127,7 @@
                     <% let path = '/images/pic0' + i + '.jpg'; %>
                     <img src="<%= path %>" class="img-fluid">
                 </div>
+
                 <% } %>
                 <% } %>
 
@@ -317,7 +322,7 @@
         </div>
     </div>
 </div>
-</body>
+</div>
 
 
 <!--footer-->
