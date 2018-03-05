@@ -27,6 +27,7 @@ html, body {
     position: relative;
     min-height: 100%
 }
+
 #header {
     position: relative;
     min-height: 100%
@@ -548,6 +549,20 @@ html, body {
 
 }
 
-#jack-works {
+#jack-works .work-menu-item a {
+    color: #4c4f52;
+    cursor: pointer;
+}
 
+#jack-works .jack-menu .work-menu-link.active {
+    color: black;
+    border-bottom: solid black 2px;
+}
+
+#jack-works .sample-themes .sample-theme.active {
+    display: block;
+}
+
+#jack-works .sample-themes .sample-theme {
+    display: inline-block;
 }
