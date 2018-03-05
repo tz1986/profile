@@ -96,14 +96,14 @@
             </div>
         </div>
         <div class="container">
-            <div class="row " style="padding-top: 30px">
+            <div class="row no-gutters" style="padding-top: 30px">
 
                 <% if(workStatus === 'app'){ %>
                 <% for (let i = 1; i < 7; i++){ %>
 
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <% let path = '/images/app-img0' + i + '.jpg'; %>
-                    <img src="<%= path %>" class="img-fluid">
+                    <img src="<%= path %>" class="img-fluid" >
                 </div>
 
                 <% } %>
@@ -112,10 +112,13 @@
                 <% if(workStatus === 'website'){ %>
                 <% for (let i = 1; i < 7; i++){ %>
 
-                <div class="col-md-6">
-                    <% let path = '/images/pic0' + i + '.jpg'; %>
-                    <img src="<%= path %>" class="img-fluid">
-                </div>
+    <div class="col-md-4">
+        <div style="margin-top: 10px; margin-left: 10px">
+        <% let path = '/images/pic0' + i + '.jpg'; %>
+        <img src="<%= path %>" class="img-fluid">
+        </div>
+    </div>
+
 
                 <% } %>
                 <% } %>
@@ -123,7 +126,7 @@
                 <% if(workStatus === 'graphic'){ %>
                 <% for (let i = 1; i < 7; i++){ %>
 
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <% let path = '/images/pic0' + i + '.jpg'; %>
                     <img src="<%= path %>" class="img-fluid">
                 </div>
