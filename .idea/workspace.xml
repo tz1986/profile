@@ -5,21 +5,679 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8992e839-5193-45c0-b9a9-2c4933626c89" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/nav.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/heads/js.head.ejs" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/behance@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/dribbble@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/facebook@3x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/linkedin@3x.png" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/views/heads/jack.head.ejs" afterPath="$PROJECT_DIR$/views/heads/css.head.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/logo@3x.png" afterPath="$PROJECT_DIR$/public/images/logo@3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/top-bg.jpg" afterPath="$PROJECT_DIR$/public/images/top-bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/website-tag-detail-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/website-tag-detail-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/website-tag-detail-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/website-tag-detail-04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/website-tag-detail-05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/website-tag-detail-06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/work-preview/website-01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/work-preview/website-02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/work-preview/website-03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/work-preview/website-04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/work-preview/website-05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/work-preview/website-06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/homeComponents/about.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/homeComponents/footer.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/homeComponents/header.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/homeComponents/skill.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/homeComponents/work.ejs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/long-img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/accordion.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/accordion.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/ad.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/ad.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/api.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/breadcrumb.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/breadcrumb.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/button.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/button.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/card.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/card.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/checkbox.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/checkbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/checkbox.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/checkbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/comment.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/comment.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/container.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/container.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/dimmer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/dimmer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/dimmer.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/dimmer.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/divider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/divider.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/dropdown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/dropdown.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/dropdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/embed.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/embed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/embed.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/embed.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/feed.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/feed.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/flag.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/flag.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/form.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/form.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/form.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/grid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/header.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/header.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/icon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/icon.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/image.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/image.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/input.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/input.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/item.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/item.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/label.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/label.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/list.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/list.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/loader.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/loader.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/menu.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/menu.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/message.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/message.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/modal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/modal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/modal.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/nag.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/nag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/nag.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/nag.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/popup.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/popup.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/popup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/progress.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/progress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/progress.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/progress.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/rail.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/rail.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/rating.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/rating.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/rating.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/rating.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/reset.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/reset.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/reveal.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/reveal.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/search.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/search.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/search.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/segment.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/segment.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/shape.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/shape.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/shape.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/shape.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/sidebar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/sidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/sidebar.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/sidebar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/site.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/site.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/site.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/state.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/statistic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/statistic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/step.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/step.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/sticky.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/sticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/sticky.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/sticky.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/tab.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/tab.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/tab.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/table.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/table.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/transition.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/transition.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/transition.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/visibility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/components/visibility.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/semantic.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/semantic.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/semantic.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/semantic.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/basic/assets/fonts/icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/basic/assets/fonts/icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/basic/assets/fonts/icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/basic/assets/fonts/icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/default/assets/fonts/icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/default/assets/fonts/icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/default/assets/fonts/icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/default/assets/fonts/icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/default/assets/fonts/icons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/default/assets/images/flags.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/github/assets/fonts/octicons-local.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/github/assets/fonts/octicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/github/assets/fonts/octicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/github/assets/fonts/octicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/material/assets/fonts/icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/material/assets/fonts/icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/material/assets/fonts/icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/material/assets/fonts/icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/dist/themes/material/assets/fonts/icons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/behaviors/api.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/behaviors/colorize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/behaviors/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/behaviors/state.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/behaviors/visibility.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/behaviors/visit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/collections/breadcrumb.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/collections/form.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/collections/grid.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/collections/menu.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/collections/message.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/collections/table.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/button.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/container.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/divider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/flag.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/header.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/icon.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/image.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/input.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/label.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/loader.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/rail.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/reveal.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/segment.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/elements/step.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/globals/reset.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/globals/site.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/globals/site.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/accordion.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/checkbox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/checkbox.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/dimmer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/dimmer.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/dropdown.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/dropdown.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/embed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/embed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/modal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/modal.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/nag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/nag.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/popup.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/progress.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/progress.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/rating.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/rating.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/search.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/search.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/shape.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/shape.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/sidebar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/sidebar.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/sticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/sticky.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/tab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/tab.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/transition.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/modules/transition.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/views/ad.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/views/card.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/views/comment.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/views/feed.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/views/item.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/definitions/views/statistic.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/semantic.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/collections/breadcrumb.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/collections/breadcrumb.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/collections/form.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/collections/form.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/collections/grid.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/collections/grid.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/collections/menu.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/collections/menu.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/collections/message.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/collections/message.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/collections/table.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/collections/table.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/button.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/button.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/container.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/container.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/divider.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/divider.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/flag.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/flag.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/header.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/header.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/icon.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/icon.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/image.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/image.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/input.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/input.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/label.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/label.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/list.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/list.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/loader.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/loader.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/rail.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/rail.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/reveal.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/reveal.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/segment.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/segment.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/step.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/elements/step.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/globals/reset.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/globals/reset.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/globals/site.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/globals/site.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/accordion.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/accordion.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/chatroom.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/chatroom.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/checkbox.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/checkbox.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/dimmer.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/dimmer.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/dropdown.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/dropdown.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/embed.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/embed.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/modal.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/modal.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/nag.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/nag.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/popup.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/popup.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/progress.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/progress.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/rating.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/rating.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/search.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/search.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/shape.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/shape.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/sidebar.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/sidebar.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/sticky.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/sticky.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/tab.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/tab.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/transition.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/modules/transition.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/views/ad.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/views/ad.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/views/card.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/views/card.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/views/comment.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/views/comment.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/views/feed.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/views/feed.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/views/item.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/views/item.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/views/statistic.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/site/views/statistic.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/theme.config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/theme.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/amazon/elements/button.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/amazon/elements/button.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/amazon/globals/site.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/assets/fonts/icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/assets/fonts/icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/assets/fonts/icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/assets/fonts/icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/collections/table.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/collections/table.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/elements/button.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/elements/button.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/elements/icon.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/elements/icon.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/elements/step.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/elements/step.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/globals/reset.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/globals/reset.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/modules/progress.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/modules/progress.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/views/card.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/basic/views/card.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/bookish/elements/header.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/bookish/elements/header.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/bootstrap3/elements/button.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/bootstrap3/elements/button.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/chubby/collections/form.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/chubby/collections/form.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/chubby/collections/menu.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/chubby/collections/menu.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/chubby/elements/button.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/chubby/elements/button.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/chubby/elements/header.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/chubby/elements/header.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/chubby/modules/accordion.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/chubby/modules/accordion.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/chubby/views/comment.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/chubby/views/comment.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/classic/collections/table.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/classic/collections/table.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/classic/elements/button.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/classic/elements/button.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/classic/elements/header.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/classic/elements/header.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/classic/modules/progress.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/classic/modules/progress.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/classic/views/card.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/classic/views/card.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/colored/modules/checkbox.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/colored/modules/checkbox.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/assets/fonts/icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/assets/fonts/icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/assets/fonts/icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/assets/fonts/icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/assets/fonts/icons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/assets/images/flags.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/collections/breadcrumb.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/collections/breadcrumb.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/collections/form.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/collections/form.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/collections/grid.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/collections/grid.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/collections/menu.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/collections/menu.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/collections/message.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/collections/message.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/collections/table.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/collections/table.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/button.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/button.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/container.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/container.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/divider.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/divider.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/flag.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/flag.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/header.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/header.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/icon.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/icon.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/image.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/image.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/input.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/input.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/label.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/label.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/list.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/list.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/loader.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/loader.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/rail.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/rail.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/reveal.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/reveal.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/segment.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/segment.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/step.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/elements/step.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/globals/reset.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/globals/reset.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/globals/site.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/globals/site.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/accordion.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/accordion.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/chatroom.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/chatroom.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/checkbox.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/checkbox.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/dimmer.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/dimmer.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/dropdown.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/dropdown.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/embed.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/embed.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/modal.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/modal.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/nag.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/nag.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/popup.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/popup.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/progress.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/progress.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/rating.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/rating.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/search.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/search.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/shape.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/shape.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/sidebar.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/sidebar.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/sticky.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/sticky.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/tab.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/tab.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/transition.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/modules/transition.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/views/ad.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/views/ad.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/views/card.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/views/card.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/views/comment.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/views/comment.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/views/feed.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/views/feed.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/views/item.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/views/item.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/views/statistic.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/default/views/statistic.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/duo/elements/loader.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/duo/elements/loader.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/fixed-width/collections/grid.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/fixed-width/collections/grid.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/fixed-width/modules/modal.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/fixed-width/modules/modal.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/flat/collections/form.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/flat/collections/form.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/flat/globals/site.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/flat/globals/site.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/assets/fonts/octicons-local.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/assets/fonts/octicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/assets/fonts/octicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/assets/fonts/octicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/collections/breadcrumb.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/collections/form.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/collections/form.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/collections/grid.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/collections/menu.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/collections/menu.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/collections/message.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/collections/message.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/collections/table.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/elements/button.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/elements/button.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/elements/header.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/elements/icon.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/elements/icon.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/elements/image.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/elements/input.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/elements/input.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/elements/label.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/elements/label.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/elements/segment.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/elements/segment.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/elements/step.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/elements/step.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/globals/site.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/modules/dropdown.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/modules/dropdown.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/github/modules/popup.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/gmail/collections/message.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/gmail/collections/message.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/instagram/views/card.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/instagram/views/card.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/assets/fonts/icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/assets/fonts/icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/assets/fonts/icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/assets/fonts/icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/assets/fonts/icons.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/collections/menu.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/collections/menu.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/elements/button.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/elements/button.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/elements/header.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/elements/header.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/elements/icon.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/elements/icon.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/globals/site.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/globals/site.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/modules/dropdown.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/modules/dropdown.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/modules/modal.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/material/modules/modal.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/pulsar/elements/loader.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/pulsar/elements/loader.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/raised/elements/button.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/raised/elements/button.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/resetcss/globals/reset.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/resetcss/globals/reset.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/round/elements/button.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/round/elements/button.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/rtl/globals/site.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/rtl/globals/site.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/striped/modules/progress.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/striped/modules/progress.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/timeline/views/feed.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/timeline/views/feed.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/twitter/elements/button.overrides" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/src/themes/twitter/elements/button.variables" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/admin/components/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/admin/components/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/admin/components/update.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/admin/distributions/create.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/admin/distributions/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/admin/distributions/update.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/admin/publish.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/admin/register.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/admin/release.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/build/assets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/build/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/build/javascript.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/check-install.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/clean.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/collections/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/collections/admin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/collections/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/collections/internal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/collections/rtl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/admin/github.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/admin/oauth.example.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/admin/release.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/admin/templates/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/admin/templates/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/admin/templates/component-package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/admin/templates/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/admin/templates/css-package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/admin/templates/less-package.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/admin/templates/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/defaults.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/docs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/npm/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/project/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/project/install.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/project/release.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/tasks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/config/user.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/docs/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/docs/metadata.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/docs/serve.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/install.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/rtl/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/rtl/watch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/version.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/semantic/tasks/watch.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/app-img01.jpg" afterPath="$PROJECT_DIR$/public/images/work-preview/app-01.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/app-img02.jpg" afterPath="$PROJECT_DIR$/public/images/work-preview/app-02.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/app-img03.jpg" afterPath="$PROJECT_DIR$/public/images/work-preview/app-03.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/app-img04.jpg" afterPath="$PROJECT_DIR$/public/images/work-preview/app-04.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/app-img05.jpg" afterPath="$PROJECT_DIR$/public/images/work-preview/app-05.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/images/app-img06.jpg" afterPath="$PROJECT_DIR$/public/images/work-preview/app-06.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/work-preview/art-01.jpg" afterPath="$PROJECT_DIR$/public/images/work-preview/art-01.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/work-preview/art-02.jpg" afterPath="$PROJECT_DIR$/public/images/work-preview/art-02.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/work-preview/art-03.jpg" afterPath="$PROJECT_DIR$/public/images/work-preview/art-03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/work-preview/art-04.jpg" afterPath="$PROJECT_DIR$/public/images/work-preview/art-04.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/work-preview/art-05.jpg" afterPath="$PROJECT_DIR$/public/images/work-preview/art-05.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/work-preview/art-06.jpg" afterPath="$PROJECT_DIR$/public/images/work-preview/art-06.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/atob" afterPath="$PROJECT_DIR$/node_modules/.bin/atob" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/autoprefixer-info" afterPath="$PROJECT_DIR$/node_modules/.bin/autoprefixer-info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/browserslist" afterPath="$PROJECT_DIR$/node_modules/.bin/browserslist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/color-support" afterPath="$PROJECT_DIR$/node_modules/.bin/color-support" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/css-beautify" afterPath="$PROJECT_DIR$/node_modules/.bin/css-beautify" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/detect-indent" afterPath="$PROJECT_DIR$/node_modules/.bin/detect-indent" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/errno" afterPath="$PROJECT_DIR$/node_modules/.bin/errno" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/findup" afterPath="$PROJECT_DIR$/node_modules/.bin/findup" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/gulp" afterPath="$PROJECT_DIR$/node_modules/.bin/gulp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/html-beautify" afterPath="$PROJECT_DIR$/node_modules/.bin/html-beautify" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/image-size" afterPath="$PROJECT_DIR$/node_modules/.bin/image-size" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/js-beautify" afterPath="$PROJECT_DIR$/node_modules/.bin/js-beautify" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/json2yaml" afterPath="$PROJECT_DIR$/node_modules/.bin/json2yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/mkdirp" afterPath="$PROJECT_DIR$/node_modules/.bin/mkdirp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/nopt" afterPath="$PROJECT_DIR$/node_modules/.bin/nopt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/rimraf" afterPath="$PROJECT_DIR$/node_modules/.bin/rimraf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/rtlcss" afterPath="$PROJECT_DIR$/node_modules/.bin/rtlcss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/node_modules/.bin/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-conv" afterPath="$PROJECT_DIR$/node_modules/.bin/sshpk-conv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/sshpk-sign" afterPath="$PROJECT_DIR$/node_modules/.bin/sshpk-sign" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/strip-bom" afterPath="$PROJECT_DIR$/node_modules/.bin/strip-bom" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/strip-indent" afterPath="$PROJECT_DIR$/node_modules/.bin/strip-indent" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/.bin/uglifyjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/user-home" afterPath="$PROJECT_DIR$/node_modules/.bin/user-home" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/uuid" afterPath="$PROJECT_DIR$/node_modules/.bin/uuid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/yaml2json" afterPath="$PROJECT_DIR$/node_modules/.bin/yaml2json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/accord/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/node_modules/accord/node_modules/.bin/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/css/node_modules/.bin/atob" afterPath="$PROJECT_DIR$/node_modules/css/node_modules/.bin/atob" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/detect-indent/node_modules/.bin/repeating" afterPath="$PROJECT_DIR$/node_modules/detect-indent/node_modules/.bin/repeating" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/detect-libc" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/detect-libc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/mkdirp" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/mkdirp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/node-pre-gyp" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/node-pre-gyp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/nopt" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/nopt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/rc" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/rimraf" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/rimraf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/semver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/sshpk-conv" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/sshpk-conv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/sshpk-sign" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/sshpk-sign" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/sshpk-verify" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/sshpk-verify" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/uuid" afterPath="$PROJECT_DIR$/node_modules/fsevents/node_modules/.bin/uuid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp-clone/node_modules/.bin/dateformat" afterPath="$PROJECT_DIR$/node_modules/gulp-clone/node_modules/.bin/dateformat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp-clone/node_modules/.bin/has-ansi" afterPath="$PROJECT_DIR$/node_modules/gulp-clone/node_modules/.bin/has-ansi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp-clone/node_modules/.bin/strip-ansi" afterPath="$PROJECT_DIR$/node_modules/gulp-clone/node_modules/.bin/strip-ansi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp-clone/node_modules/.bin/supports-color" afterPath="$PROJECT_DIR$/node_modules/gulp-clone/node_modules/.bin/supports-color" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gulp-uglify/node_modules/.bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/gulp-uglify/node_modules/.bin/uglifyjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-notifier/node_modules/.bin/semver" afterPath="$PROJECT_DIR$/node_modules/node-notifier/node_modules/.bin/semver" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascripts/action.js" afterPath="$PROJECT_DIR$/public/javascripts/action.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/heads/bootstrap.head.ejs" afterPath="$PROJECT_DIR$/views/heads/bootstrap.head.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/heads/jquery.head.ejs" afterPath="$PROJECT_DIR$/views/heads/jquery.head.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home.ejs" afterPath="$PROJECT_DIR$/views/home.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -54,51 +712,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js.head.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/heads/js.head.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="css.head.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/heads/css.head.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="87" lean-forward="false" selection-start-line="1" selection-start-column="87" selection-end-line="1" selection-end-column="87" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="action.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/javascripts/action.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="694">
-              <caret line="88" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+            <state relative-caret-position="1197">
+              <caret line="70" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -116,35 +734,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="238" column="4" lean-forward="false" selection-start-line="238" selection-start-column="2" selection-end-line="238" selection-end-column="26" />
+            <state relative-caret-position="5061">
+              <caret line="241" column="21" lean-forward="false" selection-start-line="241" selection-start-column="21" selection-end-line="241" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/home.ejs">
+      <file leaf-file-name="header.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/homeComponents/header.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-317">
-              <caret line="404" column="23" lean-forward="false" selection-start-line="402" selection-start-column="16" selection-end-line="404" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#b#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#b#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#i#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#u#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="work.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/homeComponents/work.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="471">
+              <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -268,6 +883,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,40 +895,20 @@
             <path>
               <item name="profile" type="b2602c69:ProjectViewProjectNode" />
               <item name="profile" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="profile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="profile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="profile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="profile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="profile" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
-              <item name="grunt" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="profile" type="b2602c69:ProjectViewProjectNode" />
               <item name="profile" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="profile" type="b2602c69:ProjectViewProjectNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="work-preview" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="profile" type="b2602c69:ProjectViewProjectNode" />
@@ -334,14 +931,12 @@
               <item name="profile" type="b2602c69:ProjectViewProjectNode" />
               <item name="profile" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="heads" type="462c0819:PsiDirectoryNode" />
+              <item name="homeComponents" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,21 +989,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130602000" />
+    <option name="totallyTimeSpent" value="130974000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1440" height="818" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09255613" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21212122" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13406157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18500605" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.57814664" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21765417" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -458,13 +1051,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/images/top_bg@3x@1x.jpg" />
-    <entry file="file://$PROJECT_DIR$/semantic/src/themes/amazon/elements/button.variables">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/semantic/src/themes/amazon/elements/button.variables" />
     <entry file="file://$PROJECT_DIR$/public/images/logo@1x.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -502,7 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="1" column="46" lean-forward="false" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -539,20 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="181" column="59" lean-forward="false" selection-start-line="181" selection-start-column="59" selection-end-line="181" selection-end-column="59" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#b#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#b#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#u#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -568,20 +1140,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3717">
           <caret line="177" column="18" lean-forward="false" selection-start-line="177" selection-start-column="12" selection-end-line="177" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#b#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#b#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#u#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -597,20 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3717">
           <caret line="177" column="18" lean-forward="false" selection-start-line="177" selection-start-column="12" selection-end-line="177" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#b#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#b#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#u#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,20 +1170,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#b#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#b#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#u#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -713,7 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -737,7 +1266,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,8 +1276,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/action.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="694">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+        <state relative-caret-position="1197">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -760,7 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,7 +1295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,7 +1302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="87" lean-forward="false" selection-start-line="1" selection-start-column="87" selection-end-line="1" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -792,27 +1317,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-317">
           <caret line="404" column="23" lean-forward="false" selection-start-line="402" selection-start-column="16" selection-end-line="404" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#nav#0;n#header#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#b#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#b#0;n#div#0;n#div#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#div#0;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#body#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#3;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#u#0;n#a#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="238" column="4" lean-forward="false" selection-start-line="238" selection-start-column="2" selection-end-line="238" selection-end-column="26" />
+        <state relative-caret-position="5061">
+          <caret line="241" column="21" lean-forward="false" selection-start-line="241" selection-start-column="21" selection-end-line="241" selection-end-column="21" />
           <folding />
         </state>
       </provider>

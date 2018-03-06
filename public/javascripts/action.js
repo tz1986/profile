@@ -30,37 +30,19 @@ function selectNavButton(buttonID, targetID) {
 
 
 function selectMenuButton(buttonID) {
-    $('.jack-menu a.active').removeClass('active')
+    $('.jack-menu a.active').removeClass('active');
     $('#' + buttonID).addClass('active');
-   /* $('.jack-menu').transition('fade up');*/
-    if (buttonID === 'app-tag') {
-        for (var i = 0; i < 6; i++) {
-            $('#work-img-' + (i + 1)).attr("src", "/images/app-img0" + (i + 1) + ".jpg");
-        }
-    }
-    if (buttonID === 'website-tag') {
-        for (var i = 0; i < 6; i++) {
-            $('#work-img-' + (i + 1)).attr("src", "/images/pic0" + (i + 1) + ".jpg");
-        }
-    }
-    if (buttonID === 'graphic-tag') {
-        for (var i = 0; i < 6; i++) {
-            $('#work-img-' + (i + 1)).attr("src", "/images/pic0" + (i + 1) + ".jpg");
-        }
+    /* $('.jack-menu').transition('fade up');*/
 
-    }
-    if (buttonID === 'photography-tag') {
-        for (var i = 0; i < 6; i++) {
-            $('#work-img-' + (i + 1)).attr("src", "/images/app-img0" + (i + 1) + ".jpg");
-        }
 
-    }
-    if (buttonID === 'arts-tag') {
-        for (var i = 0; i < 6; i++) {
-            $('#work-img-' + (i + 1)).attr("src", "/images/pic0" + (i + 1) + ".jpg");
-        }
+    for (var i = 1; i < 7; i++) {
+        $('#work-img-' + i).attr("src", "/images/work-preview/" + buttonID + '-0' + i + ".jpg");
 
+        // if (i===3){
+        //    alert("/images/" + buttonID + '-img-0' + (i + 1) + ".jpg");
+        // }
     }
+
 
 }
 
@@ -70,7 +52,7 @@ function selectWorkImage(imgTag) {
     //alert('JACK IN THE BOX');
     var holder_width = $('div#img-detail-holder').width();
 
-    $('#img-detail').css('max-width', (holder_width-40)+'px');
+    $('#img-detail').css('max-width', (holder_width - 40) + 'px');
     //$('#img-detail').css('margin', '0px');
     //var img_width = $('#img-detail').width()
     //alert(img_width);

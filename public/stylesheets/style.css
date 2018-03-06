@@ -12,17 +12,23 @@ a {
 
 html, body {
     margin: 0;
-    padding:0;
-    width:100%;
+    padding: 0;
+    width: 100%;
     height: 100%;
 
 }
+
 #jack-works {
     position: relative;
     margin-top: 30px;
 }
 
 #jack-header {
+    position: relative;
+    min-height: 100%
+}
+
+#header {
     position: relative;
     min-height: 100%
 }
@@ -47,6 +53,7 @@ html, body {
     height: 100%;
     position: absolute;
     float: none;
+
     padding-top: 0px;
     padding-left: 0px;
     background-image: url('/images/top-bg.jpg');
@@ -56,14 +63,14 @@ html, body {
 }
 
 #skill-img {
-  /*  width: 100%;
-    height: auto;
-    position: absolute;
-    padding-top: 0px;
-    padding-left: 0px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 0;*/
+    /*  width: 100%;
+      height: auto;
+      position: absolute;
+      padding-top: 0px;
+      padding-left: 0px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 0;*/
     width: 100%;
     height: auto;
     position: absolute;
@@ -86,7 +93,7 @@ html, body {
     position: absolute;
     padding-top: 30px;
     width: 16%;
-    height:auto;
+    height: auto;
 }
 
 .slogan {
@@ -178,7 +185,7 @@ html, body {
 }
 
 .padding-top-140 {
-    padding-top:140px;
+    padding-top: 140px;
 }
 
 .padding-top-160 {
@@ -231,6 +238,12 @@ html, body {
     font-weight: 100;
 }
 
+.text-04 {
+    font-size: small;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
 .jk-skill {
     margin-bottom: 200px;
     min-width: 520px;
@@ -279,7 +292,7 @@ html, body {
     width: auto;
     height: 220px;
     position: static;
-/*    padding-top: 100px;*/
+    /*    padding-top: 100px;*/
     background-size: cover;
     z-index: 0;
 }
@@ -309,7 +322,7 @@ html, body {
 }
 
 @media (max-width: 50em) {
-    background: black !important;
+
 }
 
 .navbar-toggler {
@@ -332,29 +345,19 @@ html, body {
 }
 
 @media (max-width: 34em) {
-    padding: 0;
 }
-
-
 
 @media (max-width: 34em) {
-    font-weight:normal;
-    font-color:#fff !important;
-}
-
-}
-}
 }
 
 .header {
-    padding: 10px 0;
-    background: #C5D9DE;
+
     background-color: #C5D9DE;
     color: #fff;
     position: fixed;
     width: 100%;
     z-index: 8885;
-    height: 66px;
+    /*height: 66px;*/
 }
 
 .header.navbar-fixed-top {
@@ -364,7 +367,8 @@ html, body {
     -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
 }
-.header.navbar-fixed-top  .fixed-top{
+
+.header.navbar-fixed-top .fixed-top {
     background: #5E17EB !important;
     color: #000 !important;
     height: 98px;
@@ -372,17 +376,14 @@ html, body {
     vertical-align: middle;
 }
 
-.header.navbar-fixed-top  .navbar-toggler{
-    padding-top:25px;
+.header.navbar-fixed-top .navbar-toggler {
+    padding-top: 25px;
 }
 
-
-.header .navbar-fixed-top .navbar  .text-03 {
-    color:#000 !important;
+.header .navbar-fixed-top .navbar .text-03 {
+    color: #000 !important;
 
 }
-
-
 
 .header.navbar-fixed-top .logo a {
     color: #0c303b;
@@ -552,4 +553,22 @@ html, body {
     border: 0px;
     max-width: 30%;
 
+}
+
+#jack-works .work-menu-item a {
+    color: #4c4f52;
+    cursor: pointer;
+}
+
+#jack-works .jack-menu .work-menu-link.active {
+    color: black;
+    border-bottom: solid black 2px;
+}
+
+#jack-works .sample-themes .sample-theme.active {
+    display: block;
+}
+
+#jack-works .sample-themes .sample-theme {
+    display: inline-block;
 }
