@@ -33,14 +33,16 @@
             <% for (let i = 1; i < 7; i++){ %>
             <div class="col-md-4">
                 <% let path = '/images/work-preview/website-0' + i + '.jpg'; %>
-                <img src="<%= path %>" class="img-fluid" id="<%= 'work-img-'+ i %>" data-toggle="modal" data-target="#work-img-detail" style="margin-top: 30px">
+                <img src="<%= path %>" class="img-fluid" id="<%= 'work-img-' + i %>" data-toggle="modal"
+                     data-target="#work-img-detail" style="margin-top: 30px" onclick="selectWorkDetailImage(<%=i%>)">
             </div>
             <% } %>
 
-            <div class="modal fade bd-example-modal-lg" id="work-img-detail" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal fade bd-example-modal-lg" id="work-img-detail" tabindex="-1" role="dialog"
+                 aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                     <div class="modal-content">
-                     <img class="img-fluid" src="/images/website-tag-detail-01.jpg">
+                        <img class="img-fluid" id="work-detail-img" src="/images/work-detail/website-01.jpg">
                     </div>
                 </div>
             </div>
