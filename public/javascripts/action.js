@@ -18,7 +18,6 @@
     $('.jack-nav a.active').removeClass('active');
     $('#'+buttonID).addClass('active');
 }*/
-let currentTag = 'website';
 
 function selectNavButton(buttonID, targetID) {
     $('.jack-nav a.active').removeClass('active')
@@ -29,20 +28,24 @@ function selectNavButton(buttonID, targetID) {
     //alert(buttonID + '\n' + targetID);
 }
 
+let currentTag = 'website';
 
 function selectMenuButton(buttonID) {
     $('.jack-menu a.active').removeClass('active');
     $('#' + buttonID).addClass('active');
     /* $('.jack-menu').transition('fade up');*/
 
-
     currentTag = buttonID;
+
     for (var i = 1; i < 7; i++) {
         $('#work-img-' + i).attr("src", "/images/work-preview/" + buttonID + '-0' + i + ".jpg");
+
         // if (i===3){
         //    alert("/images/" + buttonID + '-img-0' + (i + 1) + ".jpg");
         // }
     }
+
+
 }
 
 
@@ -59,11 +62,9 @@ function selectWorkImage(imgTag) {
 
 }
 
-const selectWorkDetail = (index) => {
-    //alert(currentTag);
-    //alert('FUCK - ' + '/images/' + currentTag + '-tag-detail-0' + index + '.jpg');
+const selectWorkDetailImage = (index) => {
     $('#work-detail-img').attr('src', '/images/work-detail/' + currentTag + '-0' + index + '.jpg');
-};
+}
 // function didHitGetStarted() {
 //     $('js-gtco-nav-toggle').removeClass('active');
 //     $('html，body').animate({
