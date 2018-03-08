@@ -28,12 +28,14 @@ function selectNavButton(buttonID, targetID) {
     //alert(buttonID + '\n' + targetID);
 }
 
+let currentTag = 'website';
 
 function selectMenuButton(buttonID) {
     $('.jack-menu a.active').removeClass('active');
     $('#' + buttonID).addClass('active');
     /* $('.jack-menu').transition('fade up');*/
 
+    currentTag = buttonID;
 
     for (var i = 1; i < 7; i++) {
         $('#work-img-' + i).attr("src", "/images/work-preview/" + buttonID + '-0' + i + ".jpg");
@@ -60,6 +62,9 @@ function selectWorkImage(imgTag) {
 
 }
 
+const selectWorkDetailImage = (index) => {
+    $('#work-detail-img').attr('src', '/images/work-detail/' + currentTag + '-0' + index + '.jpg');
+}
 // function didHitGetStarted() {
 //     $('js-gtco-nav-toggle').removeClass('active');
 //     $('html，body').animate({

@@ -238,6 +238,12 @@ html, body {
     font-weight: 100;
 }
 
+.text-04 {
+    font-size: small;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
 .jk-skill {
     margin-bottom: 200px;
     min-width: 520px;
@@ -250,7 +256,7 @@ html, body {
     width: 250px;
     display: inline-block;
 }
-
+/*some change*/
 .footer-img-holder {
     float: right;
     width: 16%;
