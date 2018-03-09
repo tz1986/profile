@@ -61,9 +61,11 @@ html, body {
     background-size: cover;
     z-index: 0;
 }
-#arrow-down{
+
+#arrow-down {
     cursor: pointer;
 }
+
 #skill-img {
     /*  width: 100%;
       height: auto;
@@ -258,6 +260,7 @@ html, body {
     width: 250px;
     display: inline-block;
 }
+
 /*some change*/
 .footer-img-holder {
     float: right;
@@ -306,11 +309,11 @@ html, body {
     border-top: 3px solid #F8E71C;
     border-right: 3px solid #F8E71C;
 }
-.u-arrow:hover {
-    border-top: white;
-    border-right: white;
-}
 
+.u-arrow:hover {
+    border-top: 3px solid #FFFFFF;
+    border-right: 3px solid #FFFFFF;
+}
 
 .icons {
     width: 10%;
