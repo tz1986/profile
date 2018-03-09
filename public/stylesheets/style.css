@@ -61,7 +61,9 @@ html, body {
     background-size: cover;
     z-index: 0;
 }
-
+#arrow-down{
+    cursor: pointer;
+}
 #skill-img {
     /*  width: 100%;
       height: auto;
@@ -304,6 +306,11 @@ html, body {
     border-top: 3px solid #F8E71C;
     border-right: 3px solid #F8E71C;
 }
+.u-arrow:hover {
+    border-top: white;
+    border-right: white;
+}
+
 
 .icons {
     width: 10%;
