@@ -43,6 +43,8 @@ html, body {
 .jack-nav {
     font-size: 14px;
     color: #FFFFFF;
+    font-family: Mont;
+
 }
 
 .nav-space {
@@ -59,8 +61,8 @@ html, body {
     padding-top: 0px;
     padding-left: 0px;
     background-color: #F8E71C;
- /*   background-image: url('/images/top-bg.jpg');*/
-   /* background-repeat: no-repeat;*/
+/*    background-image: url('/images/top-bg.jpg');
+    background-repeat: no-repeat;*/
     background-size: cover;
     z-index: 0;
 }
@@ -104,18 +106,19 @@ html, body {
 }
 
 .slogan {
-    padding-top: 140px;
-    font-size: 66pt;
     color: black;
     font-family: Mont;
-    font-weight: 300;
+    font-weight: 100;
+    padding-top: 160px;
+    font-size: 66pt;
 }
 
 .slogan2 {
-    padding-top: 10px;
-    font-size: 18pt;
     color: black;
-    font-weight: 300; !important;
+    font-family: Mont;
+    font-size: 18pt;
+    font-weight: 100;
+!important;
 }
 
 .line-01 {
@@ -152,19 +155,19 @@ html, body {
 }
 
 .title {
-    font-size: 42pt;
-    font-family: Mont;
-    font-weight: 500;
+    font-size: 38pt;
     color: black;
+    font-family: Mont;
+    font-weight: 700;
     /*background-color: #F8E71C;*/
     /* position: absolute;*/
 }
 
 .title-01 {
-    font-size: 42pt;
-    color: black;
     font-family: Mont;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 38pt;
+    color: white;
 }
 
 .rectangle-01 {
@@ -226,15 +229,15 @@ html, body {
 
 .subtitle-about {
     font-family: Mont;
-    font-weight: 400;
     text-align: center;
     font-size: x-large;
     color: black;
 }
 
 .text-01 {
+    font-family: Mont;
+    font-size:16px;
     text-align: center;
-    font-size: medium;
     color: black;
     line-height: 180%;
     font-family: Mont;
@@ -242,20 +245,20 @@ html, body {
 }
 
 .text-02 {
-    font-size: medium;
-    color: black;
-    font-weight: 400;
     font-family: Mont;
+    font-size: 16px;
+    color: black;
+    font-weight: 100;
 }
 
 .text-03 {
     font-size: large;
     color: black;
-    font-family: Mont;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .text-04 {
+    font-family: Mont;
     font-size: small;
     font-family: Mont;
     color: black;
@@ -280,7 +283,7 @@ html, body {
     float: right;
     width: 16%;
     height: auto;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 #footer-img {
@@ -307,9 +310,9 @@ html, body {
 }
 
 #jack-footer {
-    background-color: #F8E71C;
+    background-color: #303030;
     width: auto;
-    height: 220px;
+    height: 240px;
     position: static;
     /*    padding-top: 100px;*/
     background-size: cover;
@@ -325,8 +328,8 @@ html, body {
 }
 
 .u-arrow:hover {
-    border-top: 3px solid #FFFFFF;
-    border-right: 3px solid #FFFFFF;
+    border-top: 3px solid #9013FE;
+    border-right: 3px solid #9013FE;
 }
 
 .icons {
@@ -342,7 +345,8 @@ html, body {
     width: 100%;
     font-family: Montserrat;
     border: none;
-    font-weight: 500 !important;
+    color: black;
+    font-family: Mont;
     font-style: normal !important;
 }
 
@@ -356,22 +360,21 @@ html, body {
 }
 
 .nav-link {
-    font-size:16px;
     font-family: Mont;
+    font-size:16px;
     color: black;
-    font-weight: 500;
+    font-weight: 100;
 }
 
 .nav-link:hover {
-
-    font-family: Mont;
-    font-weight: 500;
-    color: white;
+    color: #9013FE;
 }
 
 .nav-item {
     padding: 0 1rem;
 }
+
+
 
 @media (max-width: 34em) {
 }
